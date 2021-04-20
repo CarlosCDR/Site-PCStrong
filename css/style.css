@@ -1,0 +1,87 @@
+body{
+	background-color: #008080;
+	font-family: sans-serif;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: : 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #000000;
+}
+
+.menu ul li a:hover {
+    color: #000000;
+    
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+width: 40%;
+float: left;
+}
+.form{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 40px; 	
+}
+.card{
+	box-shadow: 1px #00f;
+	background-color: #add8e6;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.card-top{
+	text-align: center;
+}
+
+.card-group{
+   margin-bottom: 10px;
+}
+
+.card-group >label{
+    width: 100%;
+    color: #000000;
+    display: block;
+}
+
+.card-group > input{
+   border-radius: 5px;
+   outline: 0;
+   width: 100%;
+   height: 25px;
+   padding: 5px;
+}
+
+.card-group > button{
+	background-image:linear-gradient(to right, green,darkgreen);
+	width: 100%;
+	border-radius: 30px;
+	padding: 15px;
+	color: #FFFFFF;
+	border: 0px;
+	outline: 0;
+}
+
+.btn button:hover{
+   background-image:linear-gradient(to right, green, #30503a);
+}
+
+.imglogin{
+	border-radius: 50px;
+	width: 100px;
+	box-shadow: 1px 1px 5px #000000;
+}
+
+.title{
+	color: #000000 ;
+}
